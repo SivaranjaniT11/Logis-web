@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container-fluid , .mas-head{
+    background-image: url('image/hero-bg.png');
+    background-color: #0e1d34;
+    width: 100%; 
+    background-position: center; 
+    display: inline-flex;
+}
+header .logo ,header .logo-1{
+    margin: 1%;
+    color: aliceblue;
+    font-size: 30px;
+    display: inline-flex;
+}
+nav ul {
+    margin: 0 2%;
+    margin: 1%;
+    display: inline-flex;
+    z-index: 1;
+    margin-left:600px;
+}
+nav ul li{
+    margin-left: 5%;
+}
+nav ul li a{
+    color: rgb(251, 253, 253);
+    font-size: 20px;  
+}
+#check{
+    display: none;
+}
+.menu{
+    display: none;
+}
+ul li button , .Search{
+    padding:10px 55px;
+    background-color: rgb(26, 26, 200);
+    border: none;color: white;
+    margin-left: 2%;
+}
+.mas-head {
+    height: 85vh;
+}
+.mas-head .row{
+    display: inline-flex;
+}
+.mas-head .mas-c1,.mas-head .mas-c2{
+    flex-wrap: wrap;   
+    flex-basis: 50%;
+    color: white;margin-left:3%;
+}.mas-head .mas-c1 h1{
+    font-size: 50px;margin-top: 40px;
+}
+.mas-head .mas-c2 img{
+    width: 80%;
+}
+.number{
+    margin-left: 10%;
+}
+
+.mas-head form .form-control {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    position: relative;width: 100%;
+}
+.Search{
+    position: absolute;
+    left:30%;top:46%;border-radius: 5px;
+}
+
+.row-2 {
+    display: inline-flex;
+}
+.row-2 .number{
+    font-size: 18px;
+    margin-top:10%;
+    text-align: center;
+}
+.truck{
+    margin-left: 10%;
+    margin-top: 10px;
+    width:25%;
+    display: inline-flex;
+    margin: 3% 3%;
+}
+.truck1 {
+    display: inline-flex;
+}
+.truck1 i{
+    font-size: 20px;
+    color: rgb(26, 26, 200); 
+    margin-right: 10px;
+}
+.col1-about{
+    width: 60%;
+}
+.about .row{
+    display: inline-flex;
+}
+.service-1, .Service-2 , .pricing-1{
+    display: inline-flex;
+    width: 100%;
+}
+.service-1 .card , .Service-2 .card , .pricing-1 .card{
+    flex-wrap: wrap;
+    width: 350px;
+    box-shadow: 2px 10px 20px 2px grey;
+    margin-left:8%;
+    margin-bottom: 3%;
+}
+.pricing-1 .card .plan{
+    font-size: 20px;
+    line-height: 40px;
+}
+.pricing-1 .card-text p i{
+    color: green;
+    
+}
+.pricing-1 .btn-buy{
+    margin-bottom: 2%;
+    padding: 10px 25px;
+    border-color: blue;
+    color: blue;
+    background-color: transparent;
+}
+.pricing-1 .btn-buy-1{
+    margin-bottom: 2%;
+    padding: 10px 25px;
+    color: aliceblue;border: none;
+    background-color: blue;
+}
+.service-1 .card .card-body , .Service-2 .card .card-body , .pricing-1 .card .card-text {
+    margin: 3%;
+}
+#box {
+    background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url('image/cta-bg.jpg') center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    text-align: center;
+    color: aliceblue;
+}
+#box .bt-call{
+    padding: 20px 25px;
+    border-color: aliceblue;
+    background-color: transparent;
+    color: aliceblue;
+}
+.grid {
+    display: inline-flex;
+    margin: 30px;
+}
+.grid .row-g2 h3{
+    font-size: 30px;
+}
+.grid .row-g2 p ,.grid .row-g2 h5{
+    font-size: 20px;
+    margin-top: 4%;
+    
+}
+#box-2 {
+    background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url('image/testimonials-bg.jpg') center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 5%;
+}
+#box-2 .stars i{
+    color: orange;
+}
+.q-1{
+    margin: 10% 10%;
+}
+.query .q-1 h4{
+    padding: 20px;
+    background-color: rgb(217, 211, 211);
+    margin-bottom:3%;
+}
+.footer {
+    display: inline-flex;
+    margin: 5% 5%;
+    color: aliceblue;
+}
+.footer .col-sm-3{
+    padding: 0px 80px;
+}
+.footer .col-sm-3 p a{
+    line-height: 30px;
+    color: rgb(106, 106, 107);
+}
+footer{
+    height: 50vh;
+}
+  footer .icons a{
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;height: 40px;
+    color: gray;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;margin-right: 10px;    
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    header{
+        display: inline-flex; 
+        z-index: 1;
+    }
+    header .logo{
+        display:block;
+    }
+    .menu{
+        display: block;
+        position:relative;
+        margin:3%; margin-left: 150px;
+        font-size: 30px;
+        color: aliceblue;
+    }
+      nav ul{
+            display: block;
+            width: 100%; 
+            margin-left: -120%;
+            position: absolute;
+            padding: 20px 20px;
+        }
+        nav ul li{
+           width: 150%;
+            margin-left: 1%;
+            padding-top: 18px;
+            padding-bottom: 10px;
+        }
+        #check:checked ~ ul{
+           margin-left:0%;
+           position: relative;
+           background-color: #0e1d34;
+           width: 1005;
+        } 
+        .mas-head {
+        height: 130vh;
+     }
+     .mas-head .row {
+        display: inline-table;
+     }  
+     .mas-head .mas-c1,.mas-head .mas-c2{
+        margin-left:1%;
+    }
+    .mas-head .mas-c2 img{
+        width: 100%;
+    }
+.mas-head form .form-control {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;width: 95%;
+    margin-right:15px; position: relative;
+}
+.Search{
+   display: none;
+}
+.truck{
+    margin-top: 10px;
+    width: 100%;
+    display: inline-table;
+    margin:0px;
+}
+.truck1 {
+    margin-top:5%;margin-left: 3%;
+    display:inline-flex;
+}
+
+.about .row{
+    display: inline-table;
+}
+.col1-about{
+    width: 100%;
+}
+.service-1, .Service-2 , .pricing-1{
+    display: inline-table;
+    width: 100%;
+}
+.service-1 .card , .Service-2 .card , .pricing-1 .card{
+    margin-left:1%;
+}
+.grid {
+    display: inline-table;
+    margin: 30px;
+}
+.grid .row-g2 h3{
+    font-size: 30px;
+}
+.grid .row-g2 p ,.grid .row-g2 h5{
+    font-size: 20px;
+    margin-top: 4%;
+    
+}
+.footer {
+    display: inline-table;
+    margin: 0% 0%;
+    color: aliceblue;
+}
+.footer .col-sm-3{
+    padding: 0px 10px;
+}
+
+    
+footer{
+        height: 80vh;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    header{
+        display: inline-flex; 
+        z-index: 1;
+    }
+    header .logo{
+        display:block;
+        font-size: 40px;
+    }
+    .menu{
+        display: block;
+        position:relative;
+        margin:3%; margin-left: 800px;
+        font-size: 30px;
+        color: aliceblue;
+    }
+      nav ul{
+            display: block;
+            width: 100%; 
+            margin-left: -120%;
+            position: absolute;
+            padding: 20px 20px;
+        }
+        nav ul li{
+           width: 150%;
+            margin-left: 1%;
+            padding-top: 18px;
+            padding-bottom: 10px;
+        }
+        #check:checked ~ ul{
+           margin-left:0%;
+           position: relative;
+           background-color: #0e1d34;
+           width: 100%;
+        } 
+        .mas-head {
+        height: 50vh;
+     }
+     .mas-head .row {
+        display: -ms-inline-grid;
+     }
+     .mas-head .mas-c1,.mas-head .mas-c2{
+        margin-left:1%;
+    }
+    .mas-head .mas-c2 img{
+        width: 80%;
+    }
+.mas-head form .form-control {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;width: 95%;
+    margin-right:15px; position: relative;
+}
+.Search{
+   display: none;
+}
+.truck{
+    margin-top: 10px;
+    width: 25%; 
+    font-size: 26px;
+    display: -ms-inline-grid;
+}
+.truck1 {
+    margin-top:5%;margin-left: 3%;
+    display:inline-flex;
+}
+
+.about .row{
+    display: -ms-inline-grid;
+}
+.col1-about{
+    width: 100%;
+}
+
+.service-1, .Service-2 , .pricing-1{
+    display: -ms-inline-grid;
+    width: 95%;
+}
+.service-1 .card , .Service-2 .card , .pricing-1 .card{
+    margin-left:1%;
+}
+.grid {
+    display: -ms-inline-grid;
+    margin: 30px;
+}
+.grid .row-g2 h3{
+    font-size: 30px;
+}
+.grid .row-g2 p ,.grid .row-g2 h5{
+    font-size: 20px;
+    margin-top: 4%;
+    
+}
+.footer {
+    display: -ms-inline-grid;
+    margin: 0% 0%;
+    color: aliceblue;
+}
+.footer .col-sm-3{
+    padding: 0px 55px;
+}
+
+    
+footer{
+        height: 0vh;
+    }
+    
+}
+
+@media (min-width: 1025px) and (max-width: 1281px){
+    header{
+        display: inline-flex; 
+        z-index: 1;
+    }
+    header .logo{
+        display:block;
+        font-size: 40px;
+    }
+    nav ul{
+        margin-left:300px;
+    }
+        .mas-head {
+        height: 80vh;
+     }
+     .mas-head .row {
+        display: -ms-inline-grid;
+     }
+     .mas-head .mas-c1,.mas-head .mas-c2{
+        margin-left:1%;
+    }
+    .mas-head .mas-c2 img{
+        width: 80%;
+    }
+.mas-head form .form-control {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;width: 95%;
+    margin-right:15px; position: relative;
+}
+.Search{
+   display: none;
+}
+.truck{
+    margin-top: 10px;
+    width: 25%; 
+    display:-ms-inline-grid;
+    font-size: 18px;
+}
+.truck1 {
+    margin-top:5%;margin-left: 3%;
+    display:inline-flex;
+}
+
+.about .row{
+    display: -ms-inline-grid;
+}
+.col1-about{
+    width: 100%;
+}
+.service-1, .Service-2 , .pricing-1{
+    display: -ms-inline-grid;
+    width: 100%;
+}
+.service-1 .card , .Service-2 .card , .pricing-1 .card{
+    margin-left:4%;
+}
+.grid {
+    display: -ms-inline-grid;
+    margin: 30px;
+}
+.grid .row-g2 h3{
+    font-size: 30px;
+}
+.grid .row-g2 p ,.grid .row-g2 h5{
+    font-size: 20px;
+    margin-top: 4%;
+    
+}
+.footer {
+    display: -ms-inline-grid;
+    margin: 0% 0%;
+    color: aliceblue;
+}
+.footer .col-sm-3{
+    padding: 0px 70px;
+}
+footer{
+    height: 0vh;
+}
+}
